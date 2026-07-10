@@ -78,6 +78,12 @@
       margin-bottom: 28px;
     }
     section p + p { margin-top: 18px; }
+    a.mail {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent-soft);
+    }
+    a.mail:hover { border-bottom-color: var(--accent); }
     footer {
       padding: 40px 0 56px;
       border-top: 1px solid var(--rule);
@@ -97,6 +103,7 @@
       <a class="wordmark" href="/">Cidery<span>&nbsp;Labs</span></a>
       <nav>
         <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -119,6 +126,13 @@
       </div>
     </section>
 
+    <section id="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>Reach out to <a class="mail" href="mailto:jeffrey@ciderylabs.com">jeffrey@</a>
+        to join the team.</p>
+      </div>
+    </section>
   </main>
 
   <footer>
